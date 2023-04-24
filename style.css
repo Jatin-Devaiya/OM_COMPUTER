@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	width: 100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("statu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background:rgba(50,0,150,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .logo{
+	width: 25%;
+	text-align: center;
+}
+nav .menu{
+	width: 40%;
+	display: flex; 
+	justify-content: space-around;
+}
+nav .menu a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+nav .menu a:hover{
+	background: #00b894;
+	color:black;
+	transition: all 0.8s ease;
+
+}
+.main{
+	width: 100%;
+	padding-top: 80px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+h3{
+	font-size: 30px;
+	font-weight:100;
+	letter-spacing: 5px;
+	text-shadow:5px 5px 2px black;
+}
+.main section h1{
+	margin: 30px 0 20px 0;
+	font-size: 35px;
+	font-weight:600;
+	text-shadow: 2px 1px 3px green;
+	text-transform: uppercase;
+}
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+section a{
+	padding: 7px 10px;
+	text-transform:uppercase;
+	font-size: 12;
+	font-weight:700;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 0.8s ease;
+}
+.btnone{
+	background:#fff;
+	color: #000;
+	border-radius: 30px;
+}
+.btnone:hover{
+	background: #00b894;
+	color: white;
+}
+.btntwo{
+	background: #00b894;
+	color: white;
+	border-radius: 30px;
+}
+.btntwo:hover{
+	background:#fff;
+	color: #000;
+}
+
+
+.title h1{
+	width: 125px;
+	margin: 20px ;
+	font-size: 30px;
+	padding-left: 30px;
+	background-color:#00b894;
+	color:white;
+}
+table td{
+	color:rgb(0,100,100);
+	font-weight: bold;
+	font-size: 22px;
+}
+footer{
+	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00b894;
+	color: white;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+
+.container{
+	overflow:auto;
+	margin-top: 18px;
+	background: tan;
+}
+.gallery img{
+	width: 47%;
+	height: auto;
+	margin: 10px;
+	border: 1px solid black;
+	float: left;
+}
+.poster img{
+	width: 97%;
+	margin: 10px;
+	height: auto;
+	border: 1px solid black;
+}
